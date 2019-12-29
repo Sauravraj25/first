@@ -1,0 +1,12 @@
+1.Number of passenger_count per month - bar graph
+2.server1.js in 4000 port firstquery.html firstquery.css and first query.js this is working 
+payment_method":"Credit_card","NumberofPayments":3458160
+{"location_detail":"BEMUS POINT","no_of_trips":1162263
+1.number of pasenger each month 
+2.total number of payments for each payment method
+7.total revenue for each rate id
+6.total number of tips given in each bin of tips
+3. total number of trips for each location
+4.total amount for each method per vendor
+5. count of trips for each month per vendor id 
+distance_bin":"0<dist<50","total_fare

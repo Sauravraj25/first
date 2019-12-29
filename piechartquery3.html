@@ -1,0 +1,31 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Pie Chart</title>
+
+<!-- JavaScript Libraries //-->
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- CSS Style //-->
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+    <div style="margin:75px;"  id="chart"></div>
+</body>
+<script>
+   var data;
+$( document ).ready(function() {
+    $.ajax({url: "http://localhost:3000/first", success: function(result){
+      console.log(result);
+    data= result;
+
+    var colorScheme = ["#32CD32","#0000FF","  #FF0000","#FFA500"];
+    renderPieChart(data,"#chart",colorScheme);
+    }})});
+</script>
+</html>
